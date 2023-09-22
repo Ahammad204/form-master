@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 
 
@@ -40,7 +41,7 @@ const StateFulForm = () => {
     }
     const handleNameChange = e => {
 
-        setPassword(e.target.value)
+        setName(e.target.value)
 
 
     }
