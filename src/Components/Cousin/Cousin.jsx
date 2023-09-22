@@ -1,10 +1,14 @@
+import Special from "../Special/Special";
 
 // eslint-disable-next-line react/prop-types
-const Cousin = ({name}) => {
+const Cousin = ({name,asset}) => {
     return (
         <div>
             <h2>Cousin</h2>
             <p>{name}</p>
+            <section>
+                { asset && <Special asset={asset}></Special>}
+            </section>
         </div>
     );
 };
