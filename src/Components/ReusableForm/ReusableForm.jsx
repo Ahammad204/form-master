@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
+// eslint-disable-next-line no-unused-vars
 const ReusableForm = ({formTitle,handleSubmit,submitButtonText='Submit',children}) => {
 
     const handleLocalSubmit = e => {
